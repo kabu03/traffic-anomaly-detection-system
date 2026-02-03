@@ -1,0 +1,18 @@
+{
+  "hash": "e08d5552cbe5ac281d68db08695c4f53c9dd4fa8ff5088e8661debd2fb8cea91",
+  "result": {
+    "params": {
+      "gamma": "scale",
+      "kernel": "poly",
+      "nu": 0.01
+    },
+    "tau": 4.665990022652254,
+    "cost": 68.41828134452399
+  },
+  "time_seconds": 6804.662718970969,
+  "params": {
+    "gamma": "scale",
+    "kernel": "poly",
+    "nu": 0.01
+  }
+}

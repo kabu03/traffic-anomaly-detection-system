@@ -1,0 +1,14 @@
+{
+  "hash": "937d721bf2e8dfba82cd24ff16cc8b61f7904b1d51195864dc2e3209c1eb5d93",
+  "result": {
+    "params": {
+      "n_neighbors": 75
+    },
+    "tau": 10501.6884765625,
+    "cost": 100.0
+  },
+  "time_seconds": 376.20333944482263,
+  "params": {
+    "n_neighbors": 75
+  }
+}

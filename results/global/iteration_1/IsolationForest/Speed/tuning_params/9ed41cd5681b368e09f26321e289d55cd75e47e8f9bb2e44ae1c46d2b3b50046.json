@@ -1,0 +1,18 @@
+{
+  "hash": "9ed41cd5681b368e09f26321e289d55cd75e47e8f9bb2e44ae1c46d2b3b50046",
+  "result": {
+    "params": {
+      "max_samples": 0.75,
+      "n_estimators": 100,
+      "random_state": 42
+    },
+    "tau": 0.3397581223108648,
+    "cost": 87.89950765237968
+  },
+  "time_seconds": 10.150138167547993,
+  "params": {
+    "max_samples": 0.75,
+    "n_estimators": 100,
+    "random_state": 42
+  }
+}

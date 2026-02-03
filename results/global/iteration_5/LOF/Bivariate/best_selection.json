@@ -1,0 +1,7 @@
+{
+  "best_params": {
+    "n_neighbors": 10
+  },
+  "validation_tau": 463.48028564453125,
+  "validation_cost": 100.0
+}

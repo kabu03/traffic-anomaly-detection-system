@@ -1,0 +1,309 @@
+{
+  "metadata": {
+    "pipeline_type": "individual",
+    "model_name": "LSTM",
+    "feature_set": "Speed",
+    "iteration_id": 4,
+    "run_timestamp_utc": "2025-08-10T12:14:38.965774"
+  },
+  "tuning_results": {
+    "best_hyperparameters": {
+      "batch_size": 32,
+      "lstm_units": 32,
+      "n_layers": 1,
+      "random_state": 42,
+      "window_size": 24
+    },
+    "best_threshold": 0.045276012925800975,
+    "tuning_set_cost": 7.937482673209093
+  },
+  "reporting_metrics_aggregated": {
+    "mean_training_time_seconds": 9.409891655705204,
+    "mean_prediction_time_seconds": 0.3209677752805874,
+    "DR": 0.9714285714285714,
+    "FAR": 0.08322744599745871,
+    "MTTD_minutes": 1.7647058823529411
+  },
+  "reporting_metrics_per_stream": [
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "3",
+      "total_negatives": "133",
+      "train_time_seconds": 8.236458998988383,
+      "predict_time_seconds": 0.3249472570605576
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 5.0,
+      "false_alarms": "9",
+      "total_negatives": "139",
+      "train_time_seconds": 7.754787874990143,
+      "predict_time_seconds": 0.3194245119811967
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "1",
+      "total_negatives": "133",
+      "train_time_seconds": 7.265553570003249,
+      "predict_time_seconds": 0.32284414500463754
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 5.0,
+      "false_alarms": "6",
+      "total_negatives": "135",
+      "train_time_seconds": 6.0447727389400825,
+      "predict_time_seconds": 0.31195682601537555
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "7",
+      "total_negatives": "132",
+      "train_time_seconds": 15.510727309039794,
+      "predict_time_seconds": 0.3143634229199961
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "0",
+      "total_negatives": "130",
+      "train_time_seconds": 13.419067594921216,
+      "predict_time_seconds": 0.3217385639436543
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "6",
+      "total_negatives": "139",
+      "train_time_seconds": 4.993785714963451,
+      "predict_time_seconds": 0.315756716998294
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 25.0,
+      "false_alarms": "6",
+      "total_negatives": "133",
+      "train_time_seconds": 9.60228323598858,
+      "predict_time_seconds": 0.31964088801760226
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "60",
+      "total_negatives": "139",
+      "train_time_seconds": 5.296467156033032,
+      "predict_time_seconds": 0.3339767949655652
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 5.0,
+      "false_alarms": "5",
+      "total_negatives": "138",
+      "train_time_seconds": 7.570648477994837,
+      "predict_time_seconds": 0.31009014102164656
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "2",
+      "total_negatives": "130",
+      "train_time_seconds": 6.251985825947486,
+      "predict_time_seconds": 0.32515499100554734
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 5.0,
+      "false_alarms": "6",
+      "total_negatives": "127",
+      "train_time_seconds": 5.756540247937664,
+      "predict_time_seconds": 0.31427820096723735
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "8",
+      "total_negatives": "132",
+      "train_time_seconds": 7.593198213959113,
+      "predict_time_seconds": 0.3122875440167263
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "9",
+      "total_negatives": "139",
+      "train_time_seconds": 8.277565988944843,
+      "predict_time_seconds": 0.3152343969559297
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "5",
+      "total_negatives": "132",
+      "train_time_seconds": 3.6731787730241194,
+      "predict_time_seconds": 0.2992214250843972
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "6",
+      "total_negatives": "140",
+      "train_time_seconds": 5.743357305997051,
+      "predict_time_seconds": 0.3081238429294899
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "16",
+      "total_negatives": "133",
+      "train_time_seconds": 13.335981491953135,
+      "predict_time_seconds": 0.30809484992641956
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "19",
+      "total_negatives": "134",
+      "train_time_seconds": 7.011089680949226,
+      "predict_time_seconds": 0.5353052100399509
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "0",
+      "total_negatives": "135",
+      "train_time_seconds": 27.985971829039045,
+      "predict_time_seconds": 0.3040630950126797
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "30",
+      "total_negatives": "138",
+      "train_time_seconds": 3.0273267310112715,
+      "predict_time_seconds": 0.31333997601177543
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "3",
+      "total_negatives": "134",
+      "train_time_seconds": 8.389593211002648,
+      "predict_time_seconds": 0.3234200660372153
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "1",
+      "total_negatives": "137",
+      "train_time_seconds": 15.329644664074294,
+      "predict_time_seconds": 0.3128301239339635
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "9",
+      "total_negatives": "135",
+      "train_time_seconds": 13.892717423965223,
+      "predict_time_seconds": 0.3066083319718018
+    },
+    {
+      "detected": false,
+      "mttd_minutes": null,
+      "false_alarms": "6",
+      "total_negatives": "133",
+      "train_time_seconds": 5.304868042934686,
+      "predict_time_seconds": 0.3094323930563405
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "55",
+      "total_negatives": "138",
+      "train_time_seconds": 12.751621073926799,
+      "predict_time_seconds": 0.31324959092307836
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "9",
+      "total_negatives": "137",
+      "train_time_seconds": 26.53217640297953,
+      "predict_time_seconds": 0.3173599559813738
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "5",
+      "total_negatives": "137",
+      "train_time_seconds": 7.113730661105365,
+      "predict_time_seconds": 0.3157112969784066
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "18",
+      "total_negatives": "137",
+      "train_time_seconds": 7.493856312008575,
+      "predict_time_seconds": 0.30729582300409675
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 5.0,
+      "false_alarms": "1",
+      "total_negatives": "126",
+      "train_time_seconds": 8.22258735599462,
+      "predict_time_seconds": 0.31620681600179523
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 5.0,
+      "false_alarms": "12",
+      "total_negatives": "139",
+      "train_time_seconds": 4.924025112064555,
+      "predict_time_seconds": 0.3086242520948872
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "2",
+      "total_negatives": "139",
+      "train_time_seconds": 11.478830575942993,
+      "predict_time_seconds": 0.31124055793043226
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "6",
+      "total_negatives": "133",
+      "train_time_seconds": 7.458272497053258,
+      "predict_time_seconds": 0.3080273380037397
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "29",
+      "total_negatives": "132",
+      "train_time_seconds": 7.096568567911163,
+      "predict_time_seconds": 0.31557953101582825
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 5.0,
+      "false_alarms": "8",
+      "total_negatives": "139",
+      "train_time_seconds": 7.6211461160564795,
+      "predict_time_seconds": 0.33258506399579346
+    },
+    {
+      "detected": true,
+      "mttd_minutes": 0.0,
+      "false_alarms": "25",
+      "total_negatives": "135",
+      "train_time_seconds": 11.38582117203623,
+      "predict_time_seconds": 0.3058581940131262
+    }
+  ]
+}

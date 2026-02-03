@@ -1,0 +1,18 @@
+{
+  "hash": "81fb5ce9d74b6276e123bae01e670bac5d81a27165bdfbb7feeafb71196ebf22",
+  "result": {
+    "params": {
+      "gamma": "auto",
+      "kernel": "rbf",
+      "nu": 0.05
+    },
+    "tau": -207.0629659458424,
+    "cost": 56.68851992475723
+  },
+  "time_seconds": 878.6028776150488,
+  "params": {
+    "gamma": "auto",
+    "kernel": "rbf",
+    "nu": 0.05
+  }
+}

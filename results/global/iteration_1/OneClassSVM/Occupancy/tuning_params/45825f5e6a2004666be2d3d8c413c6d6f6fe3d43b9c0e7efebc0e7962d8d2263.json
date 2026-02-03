@@ -1,0 +1,18 @@
+{
+  "hash": "45825f5e6a2004666be2d3d8c413c6d6f6fe3d43b9c0e7efebc0e7962d8d2263",
+  "result": {
+    "params": {
+      "gamma": "auto",
+      "kernel": "sigmoid",
+      "nu": 0.1
+    },
+    "tau": 5.127918541260613,
+    "cost": 73.90815970030503
+  },
+  "time_seconds": 3668.363051305976,
+  "params": {
+    "gamma": "auto",
+    "kernel": "sigmoid",
+    "nu": 0.1
+  }
+}

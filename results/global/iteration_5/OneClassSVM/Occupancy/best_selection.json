@@ -1,0 +1,9 @@
+{
+  "best_params": {
+    "gamma": "scale",
+    "kernel": "rbf",
+    "nu": 0.1
+  },
+  "validation_tau": 91.87140317689409,
+  "validation_cost": 28.129678552340227
+}

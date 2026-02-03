@@ -1,0 +1,215 @@
+{
+  "metadata": {
+    "total_tuning_time_seconds": 24110.983650441885
+  },
+  "results": {
+    "1ff0d04da67b488ab8fb039e6170e60f8d6d2c50e0534c13cd5747ebeda3478b": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 32,
+        "latent_dim": 8,
+        "n_layers": 1,
+        "random_state": 42,
+        "window_size": 24
+      },
+      "tau": 0.24432846944345885,
+      "cost": 58.545574132966685
+    },
+    "447b568b5626fd3c931acba0997fb9c1450c01e4b5cee03190c69790df03213d": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 32,
+        "latent_dim": 8,
+        "n_layers": 1,
+        "random_state": 42,
+        "window_size": 48
+      },
+      "tau": 59.30271503622637,
+      "cost": 100.0
+    },
+    "9e2579254f6bf8a871e37f8932b61f3a4bd4eaf866255983e9181b8480555be2": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 32,
+        "latent_dim": 8,
+        "n_layers": 2,
+        "random_state": 42,
+        "window_size": 24
+      },
+      "tau": 0.2423265979665499,
+      "cost": 59.460482274179114
+    },
+    "b527801b4f0787ccae10503fdd5d23139f795924a54701be86ec832b7dcd00b8": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 32,
+        "latent_dim": 8,
+        "n_layers": 2,
+        "random_state": 42,
+        "window_size": 48
+      },
+      "tau": 66.40134650419374,
+      "cost": 100.0
+    },
+    "64af4c8602aa47754707638bf6bc41718bed9c7f7fc17ad0e3f62bf39e604559": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 32,
+        "latent_dim": 16,
+        "n_layers": 1,
+        "random_state": 42,
+        "window_size": 24
+      },
+      "tau": 0.24676474121817435,
+      "cost": 57.034500137223546
+    },
+    "b177d61f21935d4caf633f00806a881a39391055d3799de7aee74bc0fd3bfe42": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 32,
+        "latent_dim": 16,
+        "n_layers": 1,
+        "random_state": 42,
+        "window_size": 48
+      },
+      "tau": 1.3593940509479705,
+      "cost": 99.28237898151939
+    },
+    "10dd60bc3af63dc6199b818386388a5a2fbc76d43f55325abe27c2b950f6ee04": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 32,
+        "latent_dim": 16,
+        "n_layers": 2,
+        "random_state": 42,
+        "window_size": 24
+      },
+      "tau": 0.2668035721660624,
+      "cost": 60.613265174245626
+    },
+    "1685316aea5fc01498ad60815e5cba34cccb1d383e1a37437e056b7bc429cb2a": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 32,
+        "latent_dim": 16,
+        "n_layers": 2,
+        "random_state": 42,
+        "window_size": 48
+      },
+      "tau": 60.933623160584695,
+      "cost": 100.0
+    },
+    "f2bafb8a5d57450255403a6cbabb6b766287074dfa9b49787c16eb28d7b36241": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 64,
+        "latent_dim": 8,
+        "n_layers": 1,
+        "random_state": 42,
+        "window_size": 24
+      },
+      "tau": 0.30987917457490766,
+      "cost": 61.224201620757654
+    },
+    "f413560667bceaba034dc677905ae9810d1c1947bc5c485161aefb770ded5904": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 64,
+        "latent_dim": 8,
+        "n_layers": 1,
+        "random_state": 42,
+        "window_size": 48
+      },
+      "tau": 94.926324550774,
+      "cost": 100.0
+    },
+    "9ea287d36d834af61d476be270cc96c947850ba3740f02756d78cbb408911ad4": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 64,
+        "latent_dim": 8,
+        "n_layers": 2,
+        "random_state": 42,
+        "window_size": 24
+      },
+      "tau": 0.28667287287216736,
+      "cost": 61.114429738785034
+    },
+    "c9880aa20af46213b87f062568ab816072e35bc901cfec58833af5339bedb5fd": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 64,
+        "latent_dim": 8,
+        "n_layers": 2,
+        "random_state": 42,
+        "window_size": 48
+      },
+      "tau": 66.79079441500095,
+      "cost": 100.0
+    },
+    "08fc6e970937ddd80f368aadb02fe2bca4186bd1713df52496ef4f1df9431fb5": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 64,
+        "latent_dim": 16,
+        "n_layers": 1,
+        "random_state": 42,
+        "window_size": 24
+      },
+      "tau": 0.2638394208313192,
+      "cost": 59.94241743024673
+    },
+    "c7a08c6dc7491476ad126b22736fb6d4daa58c19471b0132a9a9ace1c6d0495e": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 64,
+        "latent_dim": 16,
+        "n_layers": 1,
+        "random_state": 42,
+        "window_size": 48
+      },
+      "tau": 69.99823357321627,
+      "cost": 100.0
+    },
+    "a19156188d329603dd2aa2c9007c6eb11d7cbd604788c7ee301b17295bd5c4d9": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 64,
+        "latent_dim": 16,
+        "n_layers": 2,
+        "random_state": 42,
+        "window_size": 24
+      },
+      "tau": 0.29423063128016685,
+      "cost": 61.359396138822504
+    },
+    "a0e336ed7fc366ac856cbb79070727213782346203191707ccc1d3df3f19b2fb": {
+      "params": {
+        "arch": "lstm-ae",
+        "batch_size": 32,
+        "hidden_dim": 64,
+        "latent_dim": 16,
+        "n_layers": 2,
+        "random_state": 42,
+        "window_size": 48
+      },
+      "tau": 68.80969025031148,
+      "cost": 100.0
+    }
+  }
+}

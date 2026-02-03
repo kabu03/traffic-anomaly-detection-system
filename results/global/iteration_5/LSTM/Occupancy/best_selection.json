@@ -1,0 +1,11 @@
+{
+  "best_params": {
+    "batch_size": 32,
+    "lstm_units": 32,
+    "n_layers": 2,
+    "random_state": 42,
+    "window_size": 24
+  },
+  "validation_tau": 0.013024774938821874,
+  "validation_cost": 2.701572879285332
+}

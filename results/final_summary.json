@@ -1,0 +1,296 @@
+{
+  "individual": {
+    "IsolationForest": {
+      "Bivariate": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.96,
+        "mean_far": 0.10578107703303974,
+        "mean_mttd_minutes": 5.795852534562212,
+        "mean_training_time_seconds": 0.04950585490859209,
+        "mean_prediction_time_seconds": 0.007297258451409497,
+        "mean_tuning_time_seconds": 262.82403995199985
+      },
+      "Occupancy": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9257142857142856,
+        "mean_far": 0.10734146149306704,
+        "mean_mttd_minutes": 4.550658386521765,
+        "mean_training_time_seconds": 0.12011342021137743,
+        "mean_prediction_time_seconds": 0.019874485245693775,
+        "mean_tuning_time_seconds": 280.3057165166001
+      },
+      "Speed": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9885714285714287,
+        "mean_far": 0.13272570506471537,
+        "mean_mttd_minutes": 6.418487394957984,
+        "mean_training_time_seconds": 0.05324687973139329,
+        "mean_prediction_time_seconds": 0.009057346577132454,
+        "mean_tuning_time_seconds": 286.3467743954001
+      }
+    },
+    "LOF": {
+      "Bivariate": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9199999999999999,
+        "mean_far": 0.15896783214704022,
+        "mean_mttd_minutes": 7.278409090909091,
+        "mean_training_time_seconds": 0.01361627814858366,
+        "mean_prediction_time_seconds": 0.012993379988563123,
+        "mean_tuning_time_seconds": 13.698328359999868
+      },
+      "Occupancy": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9199999999999999,
+        "mean_far": 0.14058271251503363,
+        "mean_mttd_minutes": 5.391831622678397,
+        "mean_training_time_seconds": 0.013366624965700406,
+        "mean_prediction_time_seconds": 0.012643140622884467,
+        "mean_tuning_time_seconds": 12.929109083400181
+      },
+      "Speed": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9199999999999999,
+        "mean_far": 0.15913091670530047,
+        "mean_mttd_minutes": 7.094696969696969,
+        "mean_training_time_seconds": 0.013157284017116971,
+        "mean_prediction_time_seconds": 0.012532364674308544,
+        "mean_tuning_time_seconds": 12.872383704599997
+      }
+    },
+    "ModZScore": {
+      "Bivariate": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9485714285714286,
+        "mean_far": 0.11329122061196542,
+        "mean_mttd_minutes": 8.00991532976827,
+        "mean_training_time_seconds": 0.00014593122286636831,
+        "mean_prediction_time_seconds": 3.264646857782541e-05,
+        "mean_tuning_time_seconds": 0.5972800394000387
+      },
+      "Occupancy": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9028571428571428,
+        "mean_far": 0.11471242437573015,
+        "mean_mttd_minutes": 5.539503910068426,
+        "mean_training_time_seconds": 0.00010635823428466601,
+        "mean_prediction_time_seconds": 2.1353582859384394e-05,
+        "mean_tuning_time_seconds": 0.5903532709999582
+      },
+      "Speed": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.937142857142857,
+        "mean_far": 0.11214684554036805,
+        "mean_mttd_minutes": 8.641298787878785,
+        "mean_training_time_seconds": 0.00011002336571306972,
+        "mean_prediction_time_seconds": 2.2128085713900095e-05,
+        "mean_tuning_time_seconds": 0.6229231765999884
+      }
+    },
+    "OneClassSVM": {
+      "Bivariate": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.96,
+        "mean_far": 0.132660702582016,
+        "mean_mttd_minutes": 5.444227309692206,
+        "mean_training_time_seconds": 0.027143132788592733,
+        "mean_prediction_time_seconds": 0.01431629528002044,
+        "mean_tuning_time_seconds": 53.457029987199896
+      },
+      "Speed": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.96,
+        "mean_far": 0.12904061625362964,
+        "mean_mttd_minutes": 7.828877005347593,
+        "mean_training_time_seconds": 0.020584264645741708,
+        "mean_prediction_time_seconds": 0.01389132922285041,
+        "mean_tuning_time_seconds": 62.376828823799954
+      },
+      "Occupancy": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9249142857142857,
+        "mean_far": 0.11260276129804006,
+        "mean_mttd_minutes": 6.182525444195273,
+        "mean_training_time_seconds": 0.02052733438858143,
+        "mean_prediction_time_seconds": 0.013861906657168998,
+        "mean_tuning_time_seconds": 48.7812581356
+      }
+    },
+    "LSTM": {
+      "Bivariate": {
+        "num_iterations_run": 5,
+        "mean_dr": 1.0,
+        "mean_far": 0.05913867595606167,
+        "mean_mttd_minutes": 2.028571428571428,
+        "mean_training_time_seconds": 21.98222474053103,
+        "mean_prediction_time_seconds": 0.6123002703394741,
+        "mean_tuning_time_seconds": 58051.27295097909
+      },
+      "Occupancy": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9828571428571429,
+        "mean_far": 0.04144042726966639,
+        "mean_mttd_minutes": 2.4674560733384263,
+        "mean_training_time_seconds": 17.53080348250789,
+        "mean_prediction_time_seconds": 0.5816879108182288,
+        "mean_tuning_time_seconds": 48339.35712827209
+      },
+      "Speed": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9828571428571429,
+        "mean_far": 0.06903632229511472,
+        "mean_mttd_minutes": 1.4529411764705882,
+        "mean_training_time_seconds": 11.482934136366072,
+        "mean_prediction_time_seconds": 0.37174938655524914,
+        "mean_tuning_time_seconds": 50411.34692795221
+      }
+    }
+  },
+  "global": {
+    "ModZScore": {
+      "Speed": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9771428571428572,
+        "mean_far": 0.1289727473430788,
+        "mean_mttd_minutes": 7.249002100840334,
+        "mean_training_time_seconds": 0.0438318319314359,
+        "mean_prediction_time_seconds": 0.0006840571369476883,
+        "mean_tuning_time_seconds": 5.354772059193055
+      },
+      "Occupancy": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9028571428571428,
+        "mean_far": 0.12545531646890754,
+        "mean_mttd_minutes": 6.075632990243995,
+        "mean_training_time_seconds": 0.017583847984372243,
+        "mean_prediction_time_seconds": 0.0006505533660362873,
+        "mean_tuning_time_seconds": 1.6407603143481537
+      },
+      "Bivariate": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9771428571428572,
+        "mean_far": 0.11708502236531801,
+        "mean_mttd_minutes": 7.5865021008403355,
+        "mean_training_time_seconds": 0.016764594067187447,
+        "mean_prediction_time_seconds": 0.0007013594957866839,
+        "mean_tuning_time_seconds": 1.583295243815519
+      }
+    },
+    "LSTM": {
+      "Occupancy": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9942857142857143,
+        "mean_far": 0.027895037166235,
+        "mean_mttd_minutes": 1.2638655462184873,
+        "mean_training_time_seconds": 9.533416831078586,
+        "mean_prediction_time_seconds": 0.3707058065298978,
+        "mean_tuning_time_seconds": 98525.74705887055
+      },
+      "Bivariate": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9942857142857143,
+        "mean_far": 0.03472436553851914,
+        "mean_mttd_minutes": 0.8621848739495798,
+        "mean_training_time_seconds": 8.538323518795744,
+        "mean_prediction_time_seconds": 0.42290847504345164,
+        "mean_tuning_time_seconds": 134129.12198914547
+      },
+      "Speed": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9714285714285713,
+        "mean_far": 0.03579262456319039,
+        "mean_mttd_minutes": 1.0363127069009421,
+        "mean_training_time_seconds": 11.552330372474284,
+        "mean_prediction_time_seconds": 0.5356238512682778,
+        "mean_tuning_time_seconds": 104470.57011545669
+      }
+    },
+    "IsolationForest": {
+      "Speed": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.38857142857142857,
+        "mean_far": 0.06928685492866193,
+        "mean_mttd_minutes": 9.432921245421245,
+        "mean_training_time_seconds": 0.1063780528631261,
+        "mean_prediction_time_seconds": 0.02823156622171934,
+        "mean_tuning_time_seconds": 117.48717559606303
+      },
+      "Occupancy": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.4057142857142857,
+        "mean_far": 0.0690823826658602,
+        "mean_mttd_minutes": 7.977192982456139,
+        "mean_training_time_seconds": 0.13838688167028262,
+        "mean_prediction_time_seconds": 0.03342113517490881,
+        "mean_tuning_time_seconds": 121.96673641928938
+      },
+      "Bivariate": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.32571428571428573,
+        "mean_far": 0.10746208799322424,
+        "mean_mttd_minutes": 7.835620915032679,
+        "mean_training_time_seconds": 0.04374934101710096,
+        "mean_prediction_time_seconds": 0.01401874687655696,
+        "mean_tuning_time_seconds": 148.62789286635817
+      }
+    },
+    "LOF": {
+      "Speed": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9199999999999999,
+        "mean_far": 0.5901761807853085,
+        "mean_mttd_minutes": 5.06060606060606,
+        "mean_training_time_seconds": 2.374396103448567,
+        "mean_prediction_time_seconds": 2.95691266283526,
+        "mean_tuning_time_seconds": 4026.4376374230255
+      },
+      "Occupancy": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9428571428571427,
+        "mean_far": 0.5865626087229227,
+        "mean_mttd_minutes": 6.118797078948882,
+        "mean_training_time_seconds": 2.344866033842887,
+        "mean_prediction_time_seconds": 2.478869595800393,
+        "mean_tuning_time_seconds": 4038.4025509439643
+      },
+      "Bivariate": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9142857142857143,
+        "mean_far": 0.5974495609871343,
+        "mean_mttd_minutes": 2.160783748983464,
+        "mean_training_time_seconds": 2.360233532452756,
+        "mean_prediction_time_seconds": 2.519255299602103,
+        "mean_tuning_time_seconds": 4043.6318479599663
+      }
+    },
+    "OneClassSVM": {
+      "Speed": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9828571428571429,
+        "mean_far": 0.4025742024641613,
+        "mean_mttd_minutes": 4.632824038706392,
+        "mean_training_time_seconds": 22.07044104068572,
+        "mean_prediction_time_seconds": 7.689732532046099,
+        "mean_tuning_time_seconds": 48932.49361410721
+      },
+      "Occupancy": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.9428571428571428,
+        "mean_far": 0.3535556482143144,
+        "mean_mttd_minutes": 3.555309396485867,
+        "mean_training_time_seconds": 19.936373359837123,
+        "mean_prediction_time_seconds": 7.218143939183958,
+        "mean_tuning_time_seconds": 51428.76787935513
+      },
+      "Bivariate": {
+        "num_iterations_run": 5,
+        "mean_dr": 0.937142857142857,
+        "mean_far": 0.1504882439550263,
+        "mean_mttd_minutes": 6.112800802139036,
+        "mean_training_time_seconds": 11.87561545757286,
+        "mean_prediction_time_seconds": 1.8043553787418307,
+        "mean_tuning_time_seconds": 22254.10794667826
+      }
+    }
+  }
+}

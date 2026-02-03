@@ -1,0 +1,115 @@
+{
+  "metadata": {
+    "total_tuning_time_seconds": 119.51747749058995
+  },
+  "results": {
+    "6e754e4a8f53813ab13c4923ec2c20f4f2bfb0cc53c9feefeaf320a8b0f80afb": {
+      "params": {
+        "max_samples": 0.5,
+        "n_estimators": 50,
+        "random_state": 42
+      },
+      "tau": 0.3248460169254632,
+      "cost": 83.27138062432181
+    },
+    "192aed34bb98fe529ad2e12360b3b34641d51e96fc811aef71a3a0c1ffca39e5": {
+      "params": {
+        "max_samples": 0.5,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "tau": 0.3321282549100751,
+      "cost": 83.66177101471219
+    },
+    "492a57063fb28f9efe7916a2aa24d76e55e1d559aff905de316a20b16eac64f9": {
+      "params": {
+        "max_samples": 0.5,
+        "n_estimators": 200,
+        "random_state": 42
+      },
+      "tau": 0.3330487226170832,
+      "cost": 74.93303808009689
+    },
+    "4fe5c16e13f36f71df6fafa39ac5fdf468591fd4b151efba647abee80e7a70e0": {
+      "params": {
+        "max_samples": 0.5,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "tau": 0.33147541655543694,
+      "cost": 74.27061094708152
+    },
+    "ac51c8f402909af096e2fab039d6a34b4b9dc9fc3a521664ea98f3c10d6781cb": {
+      "params": {
+        "max_samples": 0.75,
+        "n_estimators": 50,
+        "random_state": 42
+      },
+      "tau": 0.33921292848397544,
+      "cost": 90.82368082368082
+    },
+    "9ed41cd5681b368e09f26321e289d55cd75e47e8f9bb2e44ae1c46d2b3b50046": {
+      "params": {
+        "max_samples": 0.75,
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "tau": 0.3310911680138821,
+      "cost": 77.59100200276673
+    },
+    "e2e3e425172cf4a3a0e14a10329c98f1aa531a474daa223f1a33a3c919bed27d": {
+      "params": {
+        "max_samples": 0.75,
+        "n_estimators": 200,
+        "random_state": 42
+      },
+      "tau": 0.338335959083526,
+      "cost": 74.97569838746308
+    },
+    "43e14cbfb46a205dd2a312ca6d06df141b8e2b177a771381c40d2e323d1a05f6": {
+      "params": {
+        "max_samples": 0.75,
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "tau": 0.33711586267348137,
+      "cost": 76.6611779847074
+    },
+    "986706f337a5851d2536bbd350ad7eb66e177cb9ff36971b868888d3a33216cb": {
+      "params": {
+        "max_samples": "auto",
+        "n_estimators": 50,
+        "random_state": 42
+      },
+      "tau": 0.32417766212162835,
+      "cost": 91.21692595957302
+    },
+    "81f86ea8d7d4de74f754f01caa18bae4a9ef926271cdf05a625d3d97796307d3": {
+      "params": {
+        "max_samples": "auto",
+        "n_estimators": 100,
+        "random_state": 42
+      },
+      "tau": 0.3179761950767701,
+      "cost": 79.79845009256775
+    },
+    "b26753328344c54c3694709edf952b9defa188e703174626d692077efacb4ecb": {
+      "params": {
+        "max_samples": "auto",
+        "n_estimators": 200,
+        "random_state": 42
+      },
+      "tau": 0.32010323251216277,
+      "cost": 84.07797713680065
+    },
+    "6ef4bf6cd22359bc5726075078852f90dfeedcd5f38b35d92c1a272d3a7dd606": {
+      "params": {
+        "max_samples": "auto",
+        "n_estimators": 300,
+        "random_state": 42
+      },
+      "tau": 0.31903471579621684,
+      "cost": 84.05148005148004
+    }
+  }
+}

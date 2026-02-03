@@ -1,0 +1,12 @@
+{
+  "metadata": {
+    "total_tuning_time_seconds": 1.9421300715766847
+  },
+  "results": {
+    "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a": {
+      "params": {},
+      "tau": 1.2165159940719605,
+      "cost": 30.273162237868117
+    }
+  }
+}

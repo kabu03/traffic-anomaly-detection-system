@@ -1,0 +1,22 @@
+{
+  "hash": "824dc7a6859acf58cca044d14cee70a96578be97cd58924b1cd34346f3bee01c",
+  "result": {
+    "params": {
+      "batch_size": 64,
+      "lstm_units": 32,
+      "n_layers": 2,
+      "random_state": 42,
+      "window_size": 48
+    },
+    "tau": 0.005887238774448633,
+    "cost": 8.63148863148863
+  },
+  "time_seconds": 4460.758317117114,
+  "params": {
+    "batch_size": 64,
+    "lstm_units": 32,
+    "n_layers": 2,
+    "random_state": 42,
+    "window_size": 48
+  }
+}

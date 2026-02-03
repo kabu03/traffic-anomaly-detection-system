@@ -1,0 +1,9 @@
+{
+  "best_params": {
+    "max_samples": "auto",
+    "n_estimators": 100,
+    "random_state": 42
+  },
+  "validation_tau": 0.3155249836051379,
+  "validation_cost": 84.45882173334202
+}

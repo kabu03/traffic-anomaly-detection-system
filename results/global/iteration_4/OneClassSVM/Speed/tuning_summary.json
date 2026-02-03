@@ -1,0 +1,169 @@
+{
+  "metadata": {
+    "total_tuning_time_seconds": 43747.78106078899
+  },
+  "results": {
+    "20d74ecce7b9942b43b0630d5e0ec596845cde73b19a8c8c84a3a33c861c5f73": {
+      "params": {
+        "gamma": "scale",
+        "kernel": "rbf",
+        "nu": 0.01
+      },
+      "tau": 6.7147366493456495,
+      "cost": 39.23524100665814
+    },
+    "fff156d7cf6830af69026c7550c0f0f7f7380f7466b56ed786b5f6e8bb6daa85": {
+      "params": {
+        "gamma": "scale",
+        "kernel": "rbf",
+        "nu": 0.05
+      },
+      "tau": 41.045381288193994,
+      "cost": 30.221525205512393
+    },
+    "2224c93ba7888eb54eaeae547fd0f98ec6c7f42d3e55d0ca1747c61581a875cb": {
+      "params": {
+        "gamma": "scale",
+        "kernel": "rbf",
+        "nu": 0.1
+      },
+      "tau": 116.91345398848422,
+      "cost": 24.34523279999661
+    },
+    "e08d5552cbe5ac281d68db08695c4f53c9dd4fa8ff5088e8661debd2fb8cea91": {
+      "params": {
+        "gamma": "scale",
+        "kernel": "poly",
+        "nu": 0.01
+      },
+      "tau": 5.271832710927115,
+      "cost": 38.55274695947234
+    },
+    "6ec506b9ace30d4f3573c36750ac8a9c698be4c83e0c3788c2a865012a352ae1": {
+      "params": {
+        "gamma": "scale",
+        "kernel": "poly",
+        "nu": 0.05
+      },
+      "tau": 26.818307790244347,
+      "cost": 100.0
+    },
+    "60c053719ac6c07bc0a8007838e6cfca018d26138c0986141855a400eb028836": {
+      "params": {
+        "gamma": "scale",
+        "kernel": "poly",
+        "nu": 0.1
+      },
+      "tau": 54.508749992371975,
+      "cost": 100.0
+    },
+    "665f78c2fef5849fc29d78ff9c3b5416687863245ffc73208399803207978c2e": {
+      "params": {
+        "gamma": "scale",
+        "kernel": "sigmoid",
+        "nu": 0.01
+      },
+      "tau": 96.95374919395726,
+      "cost": 100.0
+    },
+    "0e0fee09fbcb38c6308a296c310e245ba62b3a8b0b1cd4a8ae6251b655fc7089": {
+      "params": {
+        "gamma": "scale",
+        "kernel": "sigmoid",
+        "nu": 0.05
+      },
+      "tau": 91.86820100328904,
+      "cost": 68.97622860192915
+    },
+    "f65b8759f1b2ba631e55e63c99fb792fc7e719985a0c42f343a28d02c68417fc": {
+      "params": {
+        "gamma": "scale",
+        "kernel": "sigmoid",
+        "nu": 0.1
+      },
+      "tau": 220.0155787135227,
+      "cost": 40.71612569558753
+    },
+    "648061499e9580d42c8e0db9fdc5711bbb4092af3a6e52bec07c86a11e4a81f1": {
+      "params": {
+        "gamma": "auto",
+        "kernel": "rbf",
+        "nu": 0.01
+      },
+      "tau": 228.6132075618143,
+      "cost": 100.0
+    },
+    "81fb5ce9d74b6276e123bae01e670bac5d81a27165bdfbb7feeafb71196ebf22": {
+      "params": {
+        "gamma": "auto",
+        "kernel": "rbf",
+        "nu": 0.05
+      },
+      "tau": -121.207121590096,
+      "cost": 55.656334591482704
+    },
+    "3ce3cb3cb86873462042dfb78eba53c8ec8d28fe6e92fba15e60603a937bc069": {
+      "params": {
+        "gamma": "auto",
+        "kernel": "rbf",
+        "nu": 0.1
+      },
+      "tau": 40.428662600590975,
+      "cost": 33.85413092378664
+    },
+    "7761938ca8239ddd908d162802cfa6b23292fd72a222468c9b3042e1bef61ff9": {
+      "params": {
+        "gamma": "auto",
+        "kernel": "poly",
+        "nu": 0.01
+      },
+      "tau": 0.00013929541096149856,
+      "cost": 38.55274695947234
+    },
+    "b1e44b7d19ea80823ef0dc6ed8606d2129109b3ecc0d7860642a9952f9e8407a": {
+      "params": {
+        "gamma": "auto",
+        "kernel": "poly",
+        "nu": 0.05
+      },
+      "tau": 0.0004965920331062537,
+      "cost": 38.55274695947234
+    },
+    "b9c9b0acfd7c4efb0d7ec5ae18e769dce73f86c32263188973ee65cf7d48b844": {
+      "params": {
+        "gamma": "auto",
+        "kernel": "poly",
+        "nu": 0.1
+      },
+      "tau": 0.0008413931720055019,
+      "cost": 38.55274695947234
+    },
+    "900472cb421f2bd5ad7e40d8c06af6ef464a7b71d71a9b635a6ee9d012b7dfd4": {
+      "params": {
+        "gamma": "auto",
+        "kernel": "sigmoid",
+        "nu": 0.01
+      },
+      "tau": 4.608038701447754,
+      "cost": 100.0
+    },
+    "648ee0cd9f6c88d13da94ecb7e7bc724d8273775bea591e451d3d5084be0487c": {
+      "params": {
+        "gamma": "auto",
+        "kernel": "sigmoid",
+        "nu": 0.05
+      },
+      "tau": 44.780763267536955,
+      "cost": 100.0
+    },
+    "45825f5e6a2004666be2d3d8c413c6d6f6fe3d43b9c0e7efebc0e7962d8d2263": {
+      "params": {
+        "gamma": "auto",
+        "kernel": "sigmoid",
+        "nu": 0.1
+      },
+      "tau": 6.5599201311130395,
+      "cost": 84.99310162415648
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "metadata": {
+    "total_tuning_time_seconds": 3735.9277386887698
+  },
+  "results": {
+    "aadc53a36894be7fb7d51ae02e216389bb3cc0d78bd79dfec22b8450478bf3d8": {
+      "params": {
+        "n_neighbors": 10
+      },
+      "tau": 96174.484375,
+      "cost": 100.0
+    },
+    "c9b411097aebb5271293615984c398a75a55dc82befa43449be92ced66f9c722": {
+      "params": {
+        "n_neighbors": 20
+      },
+      "tau": 177749.21875,
+      "cost": 100.0
+    },
+    "6c4f7913455461cbcbedfe08b194be1760f3f0cd106fca67d97d72b5a0ad1c33": {
+      "params": {
+        "n_neighbors": 35
+      },
+      "tau": 849.4669189453125,
+      "cost": 98.59261096904699
+    },
+    "d878c08bc82d167a0fb10f4915e8b7dee74f24569d80a49db3a58e8248195d76": {
+      "params": {
+        "n_neighbors": 50
+      },
+      "tau": 587.738037109375,
+      "cost": 98.59261096904699
+    },
+    "937d721bf2e8dfba82cd24ff16cc8b61f7904b1d51195864dc2e3209c1eb5d93": {
+      "params": {
+        "n_neighbors": 75
+      },
+      "tau": 358.87595214843816,
+      "cost": 99.04679210717148
+    }
+  }
+}
